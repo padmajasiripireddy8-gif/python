@@ -38,3 +38,38 @@ attendance = float(input ("Enter attendance:"))
 eligible = marks >= 85 and attendance >= 75
 print("Scholarship Eligible:", eligible)
 
+
+#identify operators
+a = None
+
+print(a is None)
+print(a is not None)
+
+
+#bitwise operators
+a = 5
+b = 3
+
+print(a & b)
+print(a | b)
+print(a ^ b)
+
+
+#electricity city bill calculator
+units = int(input("Enter electricity units:"))
+
+rate = 6
+
+bill = units * rate
+
+print("Electricity Bill:", bill)
+
+
+#tavel expense calculator
+travel = float(input("Travel expense: "))
+food = float(input("Food expense: "))
+hotel = float(input("Hotel expense: "))
+
+total = travel + food + hotel
+
+print("Total Expenses: ", total)
